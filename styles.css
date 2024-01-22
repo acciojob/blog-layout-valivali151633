@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.blog-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.category {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align:center;
+	padding: 20px;
+}
+
+.category h2 {
+  margin-bottom: 10px;
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category li {
+  margin-bottom: 8px;
+}
